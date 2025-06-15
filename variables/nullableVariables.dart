@@ -1,7 +1,7 @@
 void main() {
   String? name = "박한";
 
-  if(name != null) {
+  if (name != null) {
     print(name.length);
   }
 }
