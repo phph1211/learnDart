@@ -3,15 +3,9 @@ String sayHello({
   required int age,
   required String country,
 }) {
-  return "${name} / ${age} / ${country}";
+  return "$name / $age / $country";
 }
 
 void main() {
-  print(
-    sayHello(
-      name: "sugar",
-      age: 10,
-      country: "Korea",
-    ),
-  );
+  print(sayHello(name: "sugar", age: 10, country: "Korea"));
 }
